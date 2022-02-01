@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tudu-app-5eb1f"
+  },
+  "targets": {
+    "tudu-app-5eb1f": {
+      "hosting": {
+        "tudu-landing": [
+          "tudu-app-5eb1f"
+        ]
+      }
+    }
+  }
+}

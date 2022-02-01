@@ -61,7 +61,7 @@
     </div><!-- /.site-footer__upper -->
     <div class="site-footer__bottom">
       <div class="container text-center">
-        <p>© copyright 2020 by Layerdrops.com</p>
+        <p>© copyright 2020 by <a href="https://trian.app" target="_blank">trian.app</a></p>
       </div><!-- /.container -->
     </div><!-- /.site-footer__bottom -->
   </footer>

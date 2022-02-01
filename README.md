@@ -1,4 +1,6 @@
 # apiton
+![CI](https://github.com/triandamai/trianapp/workflows/Deploy-Push/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > Apiton - Vue Nuxt App Landing Page Template
 
