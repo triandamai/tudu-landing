@@ -98,7 +98,7 @@
     <!-- /.site-footer -->
     <div class="bottom-footer text-center">
       <div class="container">
-        <p>&copy; copyright 2019 by <a href="#">Layerdrops.com</a></p>
+        <p>&copy; copyright 2022 by <a href="https://trian.app">trian.app</a></p>
       </div>
       <!-- /.container -->
     </div>
