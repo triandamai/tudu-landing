@@ -1,29 +1,29 @@
 <template>
-
-  <section class="page-header">
+  <section class="inner-banner">
     <div class="container">
+      <ul class="thm-breadcrumb">
+        <li><nuxt-link to="/">Home</nuxt-link></li>
+        <li><span class="sep">.</span></li>
+        <li>
+          <span class="page-title">{{ pageName }}</span>
+        </li>
+      </ul>
+      <!-- /.thm-breadcrumb -->
       <h2>{{ title }}</h2>
-      <ul class="list-unstyled thm-breadcrumb">
-        <li class="home-bread"><nuxt-link to="/">Home</nuxt-link></li>
-        <li><span>{{ title }}</span></li>
-      </ul><!-- /.list-unstyled -->
-    </div><!-- /.container -->
+    </div>
+    <!-- /.container -->
   </section>
-
+  <!-- /.inner-banner -->
 </template>
-
 <script>
-  export default {
-    name: "PageHeader",
-    props: {
-      title: {
-        type: String
-      }
-    }
-
-  }
+export default {
+  props: {
+    title: {
+      type: String,
+    },
+    pageName: {
+      type: String,
+    },
+  },
+};
 </script>
-
-<style scoped>
-
-</style>

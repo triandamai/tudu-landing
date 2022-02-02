@@ -1,110 +1,141 @@
 <template>
   <div>
-  <footer class="site-footer">
-    <div class="site-footer__upper">
+    <footer class="site-footer">
+      <span class="bubble-1"></span>
+      <span class="bubble-2"></span>
+      <span class="bubble-3"></span>
+      <span class="bubble-4"></span>
+      <span class="bubble-5"></span>
+      <span class="bubble-6"></span>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="footer-widget footer-widget__about">
-              <a href="/">
-                <img src="/assets/images/logo-1-1.png" width="129" alt="">
-              </a>
-              <p>Lorem Ipsum is simply dummy text the <br> printing and setting industry. Lorm Ipsum
-                <br> has been the text ever.</p>
-            </div><!-- /.footer-widget -->
-          </div><!-- /.col-lg-4 -->
-
-          <div class="col-lg-5">
-            <div class="footer-widget__links-wrap">
+        <div class="inner-container">
+          <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-12">
               <div class="footer-widget">
-                <h3 class="footer-widget__title">Company</h3>
-                <ul class="list-unstyled footer-widget__links-list">
+                <a href="index.html"
+                  ><img src="~/assets/images/logo-1-1.png" alt="Awesome Image"
+                /></a>
+              </div>
+              <!-- /.footer-widget -->
+            </div>
+            <!-- /.col-lg-2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                <div class="widget-title">
+                  <h3>Address</h3>
+                </div>
+                <!-- /.widget-title -->
+                <ul class="contact-list">
+                  <li>888 999 0000</li>
+                  <li>needhelp@opins.com</li>
+                  <li>
+                    855 road, broklyn street <br />
+                    new york 600
+                  </li>
+                </ul>
+                <!-- /.contact-list -->
+              </div>
+              <!-- /.footer-widget -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                <div class="widget-title">
+                  <h3>Explore</h3>
+                </div>
+                <!-- /.widget-title -->
+                <ul class="links-list">
                   <li><a href="#">About</a></li>
                   <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Services</a></li>
-                </ul><!-- /.list-unstyled footer-widget__links-list -->
-              </div><!-- /.footer-widget -->
-              <div class="footer-widget">
-                <h3 class="footer-widget__title">Explore</h3>
-                <ul class="list-unstyled footer-widget__links-list">
-                  <li><a href="#">News</a></li>
                   <li><a href="#">Features</a></li>
-                  <li><a href="#">Download</a></li>
-                  <li><a href="#">Free Trial</a></li>
-                </ul><!-- /.list-unstyled footer-widget__links-list -->
-              </div><!-- /.footer-widget -->
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">How It Works</a></li>
+                </ul>
+              </div>
+              <!-- /.footer-widget -->
+            </div>
+            <!-- /.col-lg-2 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
               <div class="footer-widget">
-                <h3 class="footer-widget__title">Links</h3>
-                <ul class="list-unstyled footer-widget__links-list">
+                <div class="widget-title">
+                  <h3>Links</h3>
+                </div>
+                <!-- /.widget-title -->
+                <ul class="links-list">
                   <li><a href="#">Help</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Services</a></li>
-                </ul><!-- /.list-unstyled footer-widget__links-list -->
-              </div><!-- /.footer-widget -->
-            </div><!-- /.footer-widget__links-wrap -->
-          </div><!-- /.col-lg-5 -->
-          <div
-            class="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
-            <div class="footer-widget">
-              <div class="footer-widget__social">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-              </div><!-- /.footer-widget__social -->
-            </div><!-- /.footer-widget -->
-          </div><!-- /.col-lg-3 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </div><!-- /.site-footer__upper -->
-    <div class="site-footer__bottom">
-      <div class="container text-center">
-        <p>© copyright 2020 by <a href="https://trian.app" target="_blank">trian.app</a></p>
-      </div><!-- /.container -->
-    </div><!-- /.site-footer__bottom -->
-  </footer>
-
-      <a @click="scrollTop" class="scroll-to-target scroll-to-top" :style="`display: ${scrollBtn ? 'inline' : 'none'}`" href="#"><i class="fa fa-angle-up"></i></a>
-
-
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Clients</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <!-- /.footer-widget -->
+            </div>
+            <!-- /.col-lg-2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                <div class="widget-title">
+                  <h3>Follow</h3>
+                </div>
+                <!-- /.widget-title -->
+                <div class="social-block">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </div>
+                <!-- /.social-block -->
+              </div>
+              <!-- /.footer-widget -->
+            </div>
+            <!-- /.col-lg-3 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.inner-container -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.site-footer -->
+    <div class="bottom-footer text-center">
+      <div class="container">
+        <p>&copy; copyright 2019 by <a href="#">Layerdrops.com</a></p>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.bottom-footer -->
+    <div v-if="sticky">
+      <scrollactive>
+        <a
+          href="#wrapper"
+          data-target="html"
+          class="scroll-to-target scroll-to-top scrollactive-item"
+          ><i class="fa fa-long-arrow-up"></i
+        ></a>
+      </scrollactive>
+    </div>
   </div>
 </template>
 
 <script>
-    export default {
-      name: "Footer",
-      data(){
-        return {
-          scrollBtn: false
-        }
-      },
-      mounted() {
-        window.addEventListener('scroll', this.handleScroll);
-      },
+export default {
+  name: "Footer",
+  data() {
+    return {
+      sticky: false,
+    };
+  },
 
-      methods: {
-
-        handleScroll () {
-
-          if (window.scrollY > 70) {
-            this.scrollBtn = true
-          }
-          else if (window.scrollY < 70) {
-            this.scrollBtn = false
-          }
-        },
-
-        scrollTop () {
-          window.scrollTo(0, 0);
-        }
-
-
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (window.scrollY > 70) {
+        this.sticky = true;
+      } else if (window.scrollY < 70) {
+        this.sticky = false;
       }
-    }
+    },
+  },
+};
 </script>
-
-<style scoped>
-
-</style>
