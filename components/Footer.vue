@@ -13,7 +13,10 @@
             <div class="col-lg-2 col-md-6 col-sm-12">
               <div class="footer-widget">
                 <a href="index.html"
-                  ><img src="~/assets/images/logo-1-1.png" alt="Awesome Image"
+                  ><img 
+                  src="~/assets/images/logo.png"
+                  width="100"
+                   alt="Awesome Image"
                 /></a>
               </div>
               <!-- /.footer-widget -->
@@ -26,12 +29,8 @@
                 </div>
                 <!-- /.widget-title -->
                 <ul class="contact-list">
-                  <li>888 999 0000</li>
-                  <li>needhelp@opins.com</li>
-                  <li>
-                    855 road, broklyn street <br />
-                    new york 600
-                  </li>
+                  <li>tudu@trian.app</li>
+            
                 </ul>
                 <!-- /.contact-list -->
               </div>
@@ -45,11 +44,9 @@
                 </div>
                 <!-- /.widget-title -->
                 <ul class="links-list">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Our Team</a></li>
+                
                   <li><a href="#">Features</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">How It Works</a></li>
+                
                 </ul>
               </div>
               <!-- /.footer-widget -->
@@ -63,8 +60,7 @@
                 <!-- /.widget-title -->
                 <ul class="links-list">
                   <li><a href="#">Help</a></li>
-                  <li><a href="#">Support</a></li>
-                  <li><a href="#">Clients</a></li>
+                  <li><a href="#">privacy Policy</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
               </div>

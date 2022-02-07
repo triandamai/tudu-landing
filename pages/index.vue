@@ -6,12 +6,12 @@
     <ServiceOne />
     <FeatureOne />
     <FeatureTwo />
-    <PriceOne />
-    <TestimonialsOne />
-    <BrandOne />
+    <!-- <PriceOne /> -->
+    <!-- <TestimonialsOne /> -->
+    <!-- <BrandOne /> -->
     <Faq />
-    <BlogOne />
-    <SubscribeOne />
+    <!-- <BlogOne /> -->
+    <!-- <SubscribeOne /> -->
     <Footer />
   </div>
 </template>

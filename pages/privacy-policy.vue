@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderInner />
-    <PageHeader pageName="Blog" title="Blog Details" />
+    <PageHeader pageName="Tudu-App" title="Privacy Policy" />
     <BlogPost />
     <Footer />
   </div>

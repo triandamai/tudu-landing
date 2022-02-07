@@ -9,7 +9,10 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="logo-box clearfix">
           <nuxt-link class="navbar-brand" to="/">
-            <img src="~/assets/images/logo-1-2.png" alt="Awesome Image" />
+            <img 
+            src="~/assets/images/logo.png"
+            width="100"
+             alt="Awesome Image" />
           </nuxt-link>
           <button class="menu-toggler">
             <span class="fa fa-bars"></span>
@@ -20,26 +23,13 @@
         <div class="main-navigation">
           <ul class="one-page-scroll-menu navigation-box">
             <li class="scrollToLink">
-              <nuxt-link to="#banner"
+              <nuxt-link to="/"
                 >Home
                 <button class="sub-nav-toggler">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span></button
               ></nuxt-link>
-              <ul class="sub-menu">
-                <li><nuxt-link to="/">Home One</nuxt-link></li>
-                <li><nuxt-link to="/index-2">Home Two</nuxt-link></li>
-                <li>
-                  <nuxt-link to="/">Header Versions</nuxt-link>
-                  <ul class="sub-menu">
-                    <li><nuxt-link to="/">Header One</nuxt-link></li>
-                    <li><nuxt-link to="/index-2">Header Two</nuxt-link></li>
-                  </ul>
-                  <!-- /.sub-menu -->
-                </li>
-              </ul>
-              <!-- /.sub-menu -->
             </li>
             <li class="scrollToLink">
               <nuxt-link to="#service">Features</nuxt-link>
@@ -47,32 +37,11 @@
             <li class="scrollToLink">
               <nuxt-link to="#features">App Screens</nuxt-link>
             </li>
-            <li class="scrollToLink">
-              <nuxt-link to="#pricing">Pricing</nuxt-link>
-            </li>
-            <li class="scrollToLink">
-              <nuxt-link to="#blog"
-                >Blog
-                <button class="sub-nav-toggler">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span></button
-              ></nuxt-link>
-              <ul class="sub-menu">
-                <li><nuxt-link to="/blog">Blog Grid</nuxt-link></li>
-                <li>
-                  <nuxt-link to="/blog-details">Blog Details</nuxt-link>
-                </li>
-              </ul>
-              <!-- /.sub-menu -->
-            </li>
+      
+          
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
-        <div class="right-side-box">
-          <nuxt-link to="#" class="header-btn">Login</nuxt-link>
-        </div>
-        <!-- /.right-side-box -->
+      
       </div>
       <!-- /.container -->
     </nav>

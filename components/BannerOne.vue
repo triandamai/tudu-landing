@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col-xl-6 col-lg-8">
 					<div class="content-block">
-						<h3>Best Mobile App <br> Template for your <br> Business.</h3>
+						<h3>Best Mobile App <br> for managing <br> your Task.</h3>
 						<p>Excepteur sint occaecat cupidatat non proident sunt in <br> culpa qui officia deserunt mollit lorem ipsum anim id est <br> laborum perspiciatis unde.</p>
 						<div class="button-block">
 							<a href="#" class="banner-btn">

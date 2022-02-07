@@ -9,7 +9,10 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="logo-box clearfix">
           <nuxt-link class="navbar-brand" to="/">
-            <img src="~/assets/images/logo-1-1.png" alt="Awesome Image" />
+            <img 
+            src="~/assets/images/logo.png" 
+            width="100"
+            alt="Awesome Image" />
           </nuxt-link>
           <button class="menu-toggler">
             <span class="fa fa-bars"></span>
@@ -21,26 +24,13 @@
           <scrollactive active-class="current">
             <ul class="one-page-scroll-menu navigation-box">
               <li class="scrollToLink">
-                <a href="#banner" class="scrollactive-item"
+                <a href="/" class="scrollactive-item"
                   >Home
                   <button class="sub-nav-toggler">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span></button
                 ></a>
-                <ul class="sub-menu">
-                  <li><nuxt-link to="/">Home One</nuxt-link></li>
-                  <li><nuxt-link to="/index-2">Home Two</nuxt-link></li>
-                  <li>
-                    <nuxt-link to="/">Header Versions</nuxt-link>
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/">Header One</nuxt-link></li>
-                      <li><nuxt-link to="/index-2">Header Two</nuxt-link></li>
-                    </ul>
-                    <!-- /.sub-menu -->
-                  </li>
-                </ul>
-                <!-- /.sub-menu -->
               </li>
               <li class="scrollToLink">
                 <a href="#service" class="scrollactive-item">Features</a>
@@ -48,33 +38,12 @@
               <li class="scrollToLink">
                 <a href="#features" class="scrollactive-item">App Screens</a>
               </li>
-              <li class="scrollToLink">
-                <a href="#pricing" class="scrollactive-item">Pricing</a>
-              </li>
-              <li class="scrollToLink">
-                <a href="#blog" class="scrollactive-item"
-                  >Blog
-                  <button class="sub-nav-toggler">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span></button
-                ></a>
-                <ul class="sub-menu">
-                  <li><nuxt-link to="/blog">Blog Grid</nuxt-link></li>
-                  <li>
-                    <nuxt-link to="/blog-details">Blog Details</nuxt-link>
-                  </li>
-                </ul>
-                <!-- /.sub-menu -->
-              </li>
+           
+              
             </ul>
           </scrollactive>
         </div>
-        <!-- /.navbar-collapse -->
-        <div class="right-side-box">
-          <a href="#" class="header-btn">Login</a>
-        </div>
-        <!-- /.right-side-box -->
+       
       </div>
       <!-- /.container -->
     </nav>
