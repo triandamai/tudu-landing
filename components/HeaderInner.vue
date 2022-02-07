@@ -10,7 +10,7 @@
         <div class="logo-box clearfix">
           <nuxt-link class="navbar-brand" to="/">
             <img 
-            src="~/assets/images/logo.png"
+            src="~/assets/images/logo-dark.png"
             width="100"
              alt="Awesome Image" />
           </nuxt-link>

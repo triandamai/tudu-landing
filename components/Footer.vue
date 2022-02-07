@@ -60,7 +60,7 @@
                 <!-- /.widget-title -->
                 <ul class="links-list">
                   <li><a href="#">Help</a></li>
-                  <li><a href="#">privacy Policy</a></li>
+                  <li><nuxt-link to="privacy-policy">privacy Policy</nuxt-link></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
               </div>

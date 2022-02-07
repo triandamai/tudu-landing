@@ -6,13 +6,15 @@
 		<span class="bubble-4"></span>
 		<span class="bubble-5"></span>
 		<span class="bubble-6"></span>
-		<img src="~/assets/images/banner-moc-1-1.png" class="banner-mock" alt="Awesome Image" />
+		<img src="~/assets/images/banner-web.png" class="banner-mock" alt="Awesome Image" />
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 col-lg-8">
 					<div class="content-block">
 						<h3>Best Mobile App <br> for managing <br> your Task.</h3>
-						<p>Excepteur sint occaecat cupidatat non proident sunt in <br> culpa qui officia deserunt mollit lorem ipsum anim id est <br> laborum perspiciatis unde.</p>
+						<p>
+							The Tudu app is perfect for managing complex to-do lists. <br/>For example, with this application you can record the activities you have to do in one day, one week, or even one month. Todoist comes with a user interface that is easy to use and not confusing
+						</p>
 						<div class="button-block">
 							<a href="#" class="banner-btn">
 								<i class="fa fa-play"></i>

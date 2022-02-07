@@ -4,7 +4,7 @@
       <h3 class="title-line">Numbers Speaks Everything</h3>
       <!-- /.title-line -->
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="single-funfact-one text-center">
             <h3 class="counter">
               <countTo
@@ -18,7 +18,7 @@
           <!-- /.single-funfact-one -->
         </div>
         <!-- /.col-lg-3 -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="single-funfact-one text-center">
             <h3 class="counter">
               <countTo
@@ -32,7 +32,7 @@
           <!-- /.single-funfact-one -->
         </div>
         <!-- /.col-lg-3 -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="single-funfact-one text-center">
             <h3 class="counter">
               <countTo
@@ -45,21 +45,7 @@
           </div>
           <!-- /.single-funfact-one -->
         </div>
-        <!-- /.col-lg-3 -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="single-funfact-one text-center">
-            <h3 class="counter">
-              <countTo
-                :startVal="0"
-                :endVal="startCounter ? 266 : 0"
-                :duration="3000"
-              ></countTo>
-            </h3>
-            <p>Awards</p>
-          </div>
-          <!-- /.single-funfact-one -->
-        </div>
-        <!-- /.col-lg-3 -->
+      
       </div>
       <!-- /.row -->
     </div>

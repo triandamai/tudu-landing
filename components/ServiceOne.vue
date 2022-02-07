@@ -13,7 +13,7 @@
 						<h3>High Creative App <br> Display</h3>
 						<p>There are many variations of passages of lorem ipsum but majority have suffered.</p>
 						<div class="line-block"></div><!-- /.line-block -->
-						<a href="#" class="more-link">Read More</a>
+						
 					</div><!-- /.single-service-one -->
 				</div><!-- /.col-lg-4 -->
 				<div class="col-lg-4 col-md-6 col-sm-12">
@@ -23,7 +23,7 @@
 						<h3>Unique and Custom <br> Options</h3>
 						<p>There are many variations of passages of lorem ipsum but majority have suffered.</p>
 						<div class="line-block"></div><!-- /.line-block -->
-						<a href="#" class="more-link">Read More</a>
+						
 					</div><!-- /.single-service-one -->
 				</div><!-- /.col-lg-4 -->
 				<div class="col-lg-4 col-md-6 col-sm-12">
@@ -33,7 +33,7 @@
 						<h3>Secure and Perfect <br> Integration</h3>
 						<p>There are many variations of passages of lorem ipsum but majority have suffered.</p>
 						<div class="line-block"></div><!-- /.line-block -->
-						<a href="#" class="more-link">Read More</a>
+						
 					</div><!-- /.single-service-one -->
 				</div><!-- /.col-lg-4 -->
 			</div><!-- /.row -->

@@ -37,14 +37,14 @@
               </li>
             </ul>
             <!-- /.feature-lists -->
-            <a href="#" class="feature-btn">Learn More</a>
+          
           </div>
           <!-- /.content-block -->
         </div>
         <!-- /.col-lg-6 -->
         <div class="col-lg-6">
           <div class="image-block">
-            <img src="~/assets/images/moc-1-2.png" alt="Awesome Image" />
+            <img src="~/assets/images/banner-web3.png" alt="Awesome Image" />
           </div>
           <!-- /.image-block -->
         </div>
@@ -56,3 +56,4 @@
   </section>
   <!-- /.feature-style-one -->
 </template>
+<!-- linear-gradient(-45deg, #3a45e1 0%, #5762ff 100%,#2934d0 100%); -->

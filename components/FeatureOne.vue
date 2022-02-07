@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="image-block">
-						<img src="~/assets/images/moc-1-1.png" alt="Awesome Image" />
+						<img src="~/assets/images/banner-web2.png" alt="Awesome Image" />
 					</div><!-- /.image-block -->
 				</div><!-- /.col-lg-6 -->
 				<div class="col-lg-6">
@@ -19,7 +19,7 @@
 							<li><i class="fa fa-check"></i> Duis aute irure dolor in reprehenderit in voluptate.</li>
 							<li><i class="fa fa-check"></i> Velit esse cillum dolore eu fugiat nulla pariatur.</li>
 						</ul><!-- /.feature-lists -->
-						<a href="#" class="feature-btn">Learn More</a>
+						
 					</div><!-- /.content-block -->
 				</div><!-- /.col-lg-6 -->
 			</div><!-- /.row -->
