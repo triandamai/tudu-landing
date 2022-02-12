@@ -16,7 +16,7 @@
 							The Tudu app is perfect for managing complex to-do lists. <br/>For example, with this application you can record the activities you have to do in one day, one week, or even one month. Todoist comes with a user interface that is easy to use and not confusing
 						</p>
 						<div class="button-block">
-							<a href="#" class="banner-btn">
+							<a href="https://play.google.com/store/apps/details?id=app.trian.tudu" target="_blank" class="banner-btn">
 								<i class="fa fa-play"></i>
 								Get in<span>Google Play</span>
 							</a>
